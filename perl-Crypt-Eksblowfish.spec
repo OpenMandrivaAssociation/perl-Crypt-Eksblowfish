@@ -1,9 +1,9 @@
 %define upstream_name    Crypt-Eksblowfish
-%define upstream_version 0.008
+%define upstream_version 0.009
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Blowfish-based Unix crypt() password hash
 License:    GPL+ or Artistic
