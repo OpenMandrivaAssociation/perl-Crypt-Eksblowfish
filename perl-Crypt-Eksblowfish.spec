@@ -71,3 +71,29 @@ rm -rf %buildroot
 %perl_vendorlib/*
 
 
+
+
+%changelog
+* Wed Jan 25 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 0.9.0-2
++ Revision: 768358
+- svn commit -m mass rebuild of perl extension against perl 5.14.2
+
+* Thu Apr 28 2011 Guillaume Rousse <guillomovitch@mandriva.org> 0.9.0-1
++ Revision: 659894
+- update to new version 0.009
+
+* Tue Jul 20 2010 Jérôme Quelin <jquelin@mandriva.org> 0.8.0-2mdv2011.0
++ Revision: 555711
+- rebuild
+
+* Fri Mar 12 2010 Jérôme Quelin <jquelin@mandriva.org> 0.8.0-1mdv2010.1
++ Revision: 518481
+- update to 0.008
+
+* Sun Nov 29 2009 Jérôme Quelin <jquelin@mandriva.org> 0.7.0-1mdv2010.1
++ Revision: 471119
+- import perl-Crypt-Eksblowfish
+
+
+* Sun Nov 29 2009 cpan2dist 0.007-1mdv
+- initial mdv release, generated with cpan2dist
