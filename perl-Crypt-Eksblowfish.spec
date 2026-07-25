@@ -2,14 +2,14 @@
 %define upstream_version 0.009
 
 Name:       perl-%{upstream_name}
-Version:    %perl_convert_version %{upstream_version}
-Release:	4
+Version:    %{upstream_version}
+Release:	5
 
 Summary:    Blowfish-based Unix crypt() password hash
 License:    GPL+ or Artistic
 Group:      Development/Perl
-Url:        https://search.cpan.org/dist/%{upstream_name}
-Source0:    http://www.cpan.org/modules/by-module/Crypt/%{upstream_name}-%{upstream_version}.tar.gz
+Url:        https://metacpan.org/dist/Crypt-Eksblowfish
+Source0:    https://cpan.metacpan.org/authors/id/Z/ZE/ZEFRAM/Crypt-Eksblowfish-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires: perl(Carp)
